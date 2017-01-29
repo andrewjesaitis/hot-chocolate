@@ -2,7 +2,7 @@
 <section class="main">
     <div class="container">
         <div class="content">
-            <div class="page-heading">Blog</div>
+            <div class="page-heading">Latest</div>
             <ul>
             {{ range first 5 .Data.Pages.ByPublishDate }}
                 {{ if eq .Section "post" }}
