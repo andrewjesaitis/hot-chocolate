@@ -1,0 +1,32 @@
+languageCode: "en-us"
+contentdir: "content"
+publishdir: "public"
+builddrafts: false
+baseurl: "http://myawesomeblog.com"
+canonifyurls: true
+theme: "hot-chocolate"
+title: "My Blog"
+author: "YourName"
+
+#pygmentsuseclasses: true
+pluralizelisttitles: true
+
+permalinks:
+  post: /:year/:month/:title/
+indexes:
+   category: "categories"
+params:
+  AuthorName: "YourName"
+  cachebuster: false
+  dateform: "Jan 2, 2006"
+  dateformfull: "Mon Jan 2 2006 15:04:05 MST"
+  highlightjs: false
+  gravatar: # gravatar email address
+  # Comment out any of the social profile to remove the icon in the footer
+  github: # url to github profile
+  tumblr: # url to tumblr profile "http://andrewjesaitis.tumblr.com"
+  flickr: # url to flickr profile"https://flickr.com/andrewjesaitis"
+  twitter: # url to twitter profile
+  linkedin: # url to linkedin profile
+  email: # email address
+  description: # Some witty phrase
