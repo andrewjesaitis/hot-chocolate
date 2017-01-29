@@ -668,6 +668,13 @@ section.main .content .markdown li {
   list-style-type: disc;
   list-style-position: inside;
 }
+section.main .content .markdown figure {
+  margin-bottom: 32px;
+}
+section.main .content .markdown figcaption p {
+  font-size: 0.85rem;
+  font-style: italic;
+}
 section.main .content .markdown em {
   font-style: italic;
 }
