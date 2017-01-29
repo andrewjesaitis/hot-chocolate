@@ -4,7 +4,7 @@
         <div class="content">
             <div class="page-heading">Blog</div>
             <ul>
-            {{ range .Data.Pages.ByPublishDate }}
+            {{ range first 5 .Data.Pages.ByPublishDate }}
                 {{ if eq .Section "post" }}
                     {{ partial "li.html" . }}
                 {{ end }}
@@ -14,4 +14,3 @@
     </div>
 </section>
 {{ partial "footer.html" . }}
-
