@@ -173,10 +173,24 @@ section.header .content {
   -ms-align-items: center;
   align-items: center;
 }
+section.header .brand {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: -70px;
+}
 section.header .avatar {
   border-radius: 50%;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-  max-width: 50px;
+  right: -70px;
+  margin-right: 20px;
+  width: 50px;
 }
 section.header .name {
   font-size: 18px;
